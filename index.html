@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Book Finder App</title>
+</head>
+<body>
+    <div class="container" id="home">
+        <!-- <div class="links--container">
+            <div class="links">
+                <i class="fa-solid fa-bars"></i>
+                <ul class="link">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#booklist">BookList</a></li>
+                </ul>
+            </div>
+        </div> -->
+        <nav id="nav">
+            <div class="nav-center">
+                  <div class="nav-header">
+                        <h1>book finder app</h1>
+                        <button class="nav-toggle">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                  </div>
+                  <ul class="links">
+                        <li>
+                           <a href="#home">home</a>
+                        </li>
+                        <li>
+                           <a href="#about">about</a>
+                        </li>
+                        <li>
+                           <a href="#booklist">booklist</a>
+                        </li>
+                        <li>
+                           <a href="#contact">contact</a>
+                        </li>
+                   </ul> 
+            </div>
+        </nav>
+        <div class="header--background">
+            <header class="header">
+                <h3 class="title title--header">find books for you</h3>
+                <p class="quote quote--header">
+                    “So many books, so little time.” <br>
+                    ― Frank Zappa 
+                </p>
+                <form class="search">
+                        <input
+                        type="text"
+                        class="search__field"
+                        placeholder="Enter your identifiers..."
+                        />
+                        <button class="btn search__btn">
+                            search
+                        </button>
+                </form>
+            </header>
+        </div>
+        <div class="search-results" id="booklist">
+           <h1>your search results</h1>
+           <div class="results">
+              <!-- <div class="spinner">
+              <svg>
+                  <use href="src/img/icons.svg#icon-loader"></use>
+              </svg>
+              </div>-->
+  
+              <!-- <div class="error">
+                  <div>
+                  <svg>
+                      <use href="src/img/icons.svg#icon-alert-triangle"></use>
+                  </svg>
+                  </div>
+                  <p>No recipes found for your query. Please try again!</p>
+              </div> -->
+  
+              
+            </div>
+        </div>
+    </div>
+    
+    <div class="loading">
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+    </div>
+</body>
+</html>
+
